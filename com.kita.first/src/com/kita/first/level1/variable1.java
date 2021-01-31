@@ -15,13 +15,11 @@ public class variable1 {
 		boolean v8;//참,거짓
 		v8 = true;
 		v8 = false;          
-		//참조 변수
-		String v9;
+		String v9;//참조 변수
 		
 		//상수
 		final int MY_MAX_HEIGHT;
 		final String MY_STRING = "안녕";
-		MY_MAX_HEIGHT
 	}
 
 }

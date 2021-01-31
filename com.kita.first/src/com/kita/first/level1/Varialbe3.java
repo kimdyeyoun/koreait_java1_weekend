@@ -8,7 +8,6 @@ public class Varialbe3 {
 		System.out.println(v1 + v2);
 		int result1 = v1 + v2;
 		System.out.println(result1);
-		
 		double v3 = 2.4;
 		int result2 = v1 + (int)v3;
 		System.out.println(result2);
