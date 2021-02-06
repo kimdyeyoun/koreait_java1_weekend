@@ -13,7 +13,7 @@ public class Contunue {
 //			for(int z=0; z<3;z++) {
 //				if(i == 2) {
 //					//continue;//숫자를 만나지않고 계속진행한다
-//					break;//숫자를 만자지 않고 그 이상 진행하지않는다
+//					break;//숫자를 만나지 않고 그 이상 진행하지않는다
 //				}
 //			System.out.printf("i: %d, z: %d\n", i,z);
 //			}
