@@ -1,21 +1,21 @@
+
 package com.kita.first.level2.practice;
 
 public class Practice08 {
 	public static void main(String[] args) {
-		//10칸짜리 정수(int) 배열 arr 만들어서
-		//1~10과 같이 값을 집어 넣기
-		int[] arr1 = new int[10];
-		int len = arr1.length;
-		int b = 1;
-		int c = 0;
-		for(int a = 0;a < arr1.length;a++)
-		{	
-			arr1[a] = b;
-			b= b+1;
+		// 10칸짜리 정수(int) 배열 arr 만들어서
+		// 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 과 같이 값을 집어넣기
+		// 값을 전부 집어넣은 arr 안의 값들 출력
+		int[] arr = new int[10]; // <-- arr.length
+		for(int i=1; i<=arr.length; i++) {
+			arr[i-1] = i;
 		}
-		for(int a = 0;a < arr1.length-1;a++)
-		{
-			System.out.print(arr1[a]+", ");	
-		}System.out.print(arr1[9]+" ");
+		for(int i=0; i<arr.length; i++) {
+			arr[i] = i+1;
+		}
+
+		for(int i=0; i<arr.length; i++) { 
+			System.out.print(arr[i] + ", ");
+		}
 	}
 }
