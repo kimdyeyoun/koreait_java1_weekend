@@ -17,7 +17,7 @@ public class Method1 {
 //		코드
 //		return 리턴타입 값;
 //	}
-//	
+//	m,./                    
 //	void형 메소드
 //	public static void 매소드명(매개변수1, 매겨번수2, ...) {
 //		코드
